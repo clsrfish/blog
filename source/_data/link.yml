@@ -1,5 +1,10 @@
 - class_name: 友情链接
   class_desc: 那些人，那些事
+  link_list:
+    - name: GitHub
+      link: https://github.com/clsrfish
+      avatar: https://avatars.githubusercontent.com/u/15999179?v=4
+      descr: GitHub
 
 - class_name: 网站
   class_desc: 值得推荐的网站

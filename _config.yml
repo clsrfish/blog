@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://clsrfish.github.io/blog
+url: https://clsrfish.github.io
 permalink: :year/:month/:day/:hash.html
 permalink_defaults:
 pretty_urls:
@@ -103,4 +103,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: "git"
+  repo: git@github.com:clsrfish/clsrfish.github.io.git
+  branch: master
