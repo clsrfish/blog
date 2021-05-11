@@ -31,7 +31,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.email "clsrfish@gmail.com"
           git config --global user.name "GitHub Action"
-          npm install
+          sh setup.sh
 
       - name: Deploy
         run: |
