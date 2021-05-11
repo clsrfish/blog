@@ -35,3 +35,5 @@ let hexo_img_relocator = function (data) {
 }
 
 hexo.extend.filter.register('before_post_render', hexo_img_relocator);
+
+// TODO: handle <img src="../../xxx">
