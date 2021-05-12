@@ -6,7 +6,9 @@ date: 2021-05-08 23:13:28
 updated: 2021-05-08 02:19:02
 categories:
   - C++
+tags:
   - LeetCode
+  - GoogleTest
 ---
 
 > 这篇文章将记录怎么用 [GoogleTest](https://google.github.io/googletest/) 来管理 LeetCode 的测试 case，以及优化 CMakeLists 配置避免每次都需要编译、链接整个工程，最后再利用 GitHub Action 进行自动化测试。文中不会对 Google Test 细节进行介绍，感兴趣的可以去官网阅读。

@@ -5,8 +5,8 @@ date: 2021-01-11 23:12:03
 updated: 2021-01-12 01:20:10
 categories:
   - C++
-  - LeetCode
 tags:
+  - LeetCode
   - AddressSanitizer
 ---
 
