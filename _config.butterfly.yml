@@ -44,6 +44,7 @@ copy:
 social:
   # fab fa-github: https://github.com/Clsrfish || Github
   fas fa-envelope: mailto:clsrfish@gmail.com || Email
+  fas fa-rss: atom.xml
 
 # search (搜索)
 # --------------------------------------

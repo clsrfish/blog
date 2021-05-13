@@ -106,3 +106,10 @@ deploy:
   type: "git"
   repo: git@github.com:clsrfish/clsrfish.github.io.git
   branch: master
+
+# RSS
+feed:
+  enable: true
+  # Generate atom feed
+  type: atom
+  path: atom.xml
