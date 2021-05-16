@@ -4,7 +4,7 @@
   "description": "relocate hexo's relative image path to absolute path",
   "main": "index.js",
   "scripts": {
-    "test": "echo test"
+    "tarball": "npm pack && mv hexo-img-relocate-1.0.0.tgz /tmp"
   },
   "author": "clsrfish",
   "license": "ISC"

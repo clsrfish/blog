@@ -311,4 +311,6 @@ avformat_close_input(&pFormatCtx);
 
 [原文链接](http://dranger.com/ffmpeg/tutorial01.html)
 
+[send/receive encoding and decoding API overview](https://ffmpeg.org/doxygen/3.3/group__lavc__encdec.html)
+
 [FFmpeg 解码 API](https://www.cnblogs.com/TaigaCon/p/10041926.html)
