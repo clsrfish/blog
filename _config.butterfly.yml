@@ -646,7 +646,7 @@ aside:
       link: https://github.com/Clsrfish
   card_announcement:
     enable: true
-    content: 《DangerFFmpef》 连载中！！！
+    content: 《DangerFFmpeg》 连载中！！！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
