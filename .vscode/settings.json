@@ -1,5 +1,6 @@
 {
     "insertDateString.format": "YYYY-MM-DD hh:mm:ss",
     "insertDateString.formatDate": "YYYY-MM-DD",
-    "insertDateString.formatTime": "hh:mm:ss"
+    "insertDateString.formatTime": "hh:mm:ss",
+    "files.autoSaveDelay": 10000
 }
