@@ -1,6 +1,6 @@
 ---
 title: 【DangerFFmpeg】第一节、屏幕截图
-sticky: 0
+cover: /img/audiovisual/dangerffmpeg_screencap.jpeg
 date: 2021-05-15 12:32:57
 updated: 2021-05-15 12:32:57
 categories:
@@ -301,7 +301,7 @@ avformat_close_input(&pFormatCtx);
 你应该注意到我们使用 `av_free` 释放那些使用 `avcodec_alloc_frame` 和 `av_malloc` 申请的内存。
 
 
-> 程序运行部分就不赘述了，可以下载源码查看。
+> 程序运行部分就不赘述了，可以下载源码查看，执行后就能得到五张本文的封面图！！！
 
 
 这些就是本节教程的全部内容，源码已经上传 [GitHub](https://github.com/clsrfish/dangerffmpeg) 。
