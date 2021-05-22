@@ -10,7 +10,7 @@ tags:
   - SDL2
 ---
 
-本文是 《DangerFFmpeg》系列教程第一节，系列完整目录：
+本文是 《DangerFFmpeg》系列教程第二节，系列完整目录：
 《[开篇](https://clsrfish.github.io/2021/05/13/8cf36b195b05.html)》
 《[第一节、屏幕截图](https://clsrfish.github.io/2021/05/15/1c458d50c524.html)》
 《第二节、输出到屏幕》
