@@ -1,17 +1,13 @@
-<!--
-Created: Sat May 29 2021 09:56:01 GMT+0800 (China Standard Time)
-Modified: Sat May 29 2021 10:10:40 GMT+0800 (China Standard Time)
--->
 ---
 title: 【DangerFFmpeg】第四节、多线程
 cover: /img/audiovisual/dangerffmpeg_screencap.jpeg
 date: 2021-05-22 13:32:23
 updated: 2021-05-22 13:32:23
 categories:
-  + Audiovisual
+  - Audiovisual
 tags:
-  + FFmpeg
-  + SDL2
+  - FFmpeg
+  - SDL2
 ---
 
 本文是 《DangerFFmpeg》系列教程第四节，系列完整目录：
