@@ -1,6 +1,6 @@
 ---
 title: 【DangerFFmpeg】开篇
-sticky: 0
+cover: /img/audiovisual/dangerffmpeg_screencap.jpeg
 categories:
   - Audiovisual
 tags:
