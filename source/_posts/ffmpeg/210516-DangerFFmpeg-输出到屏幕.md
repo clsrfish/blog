@@ -11,9 +11,11 @@ tags:
 ---
 
 本文是 《DangerFFmpeg》系列教程第二节，系列完整目录：
-《[开篇](https://clsrfish.github.io/2021/05/13/8cf36b195b05.html)》
-《[第一节、屏幕截图](https://clsrfish.github.io/2021/05/15/1c458d50c524.html)》
-《第二节、输出到屏幕》
+《[开篇](/2021/05/14/8cf36b195b05.html)》
+《[第一节、屏幕截图](/2021/05/15/1c458d50c524.html)》
+《[第二节、输出到屏幕](/2021/05/16/aeb0b6c30d08.html)》
+《[第三节、播放声音](/2021/05/20/d4b63d917433.html)》
+《[第四节、多线程](/2021/05/22/71765970ad7e.html)》
 
 系列所有代码托管在 [GitHub](https://github.com/clsrfish/dangerffmpeg) 。
 
