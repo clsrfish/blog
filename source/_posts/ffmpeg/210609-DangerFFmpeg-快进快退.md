@@ -19,6 +19,7 @@ tags:
 《[第五节、视频同步](/2021/05/30/088658998748.html)》
 《[第六节、同步音频](/2021/06/05/d8b51b0cff00.html)》
 《[第七节、快进快退](/2021/06/09/2f01ccb59968.html)》
+《[结语](/2021/06/19/7ddfef63d330.html)》
 
 系列所有代码托管在 [GitHub](https://github.com/clsrfish/dangerffmpeg) 。
 
