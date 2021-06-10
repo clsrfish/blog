@@ -1,5 +1,5 @@
 ---
-title: 210610-DangerFFmpeg-结语
+title: 《DangerFFmpeg》结语
 cover: /img/audiovisual/dangerffmpeg_screencap.jpeg
 date: 2021-06-10 23:43:31
 updated: 2021-06-11 00:34:32

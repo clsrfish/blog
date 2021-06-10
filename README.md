@@ -9,20 +9,20 @@
 Fisrt, publish `hexo_img_relocate` to `/tmp`:
 
 ```shell
-blog$ cd hexo-img-relocate
-hexo-img-relocate$ npm run tarball
+$ cd hexo-img-relocate
+$ npm run tarball
 ```
 
 Then, install the dependencies:
 
 ```shell
-blog$ npm install
+$ npm install
 ```
 
 Finally, run local server and writing:
 
 ```shell
-blog$ npm run server
+$ npm run server
 ```
 
 ## License
