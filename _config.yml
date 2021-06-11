@@ -121,3 +121,8 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# hexo-filter-nofollow
+nofollow:
+  enable: true
+  field: site
