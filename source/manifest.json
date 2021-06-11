@@ -1,47 +1,37 @@
 {
-    "name": "Jaggies site",
-    "short_name": "Jaggies",
+    "name": "女票不吃胡萝卜的博客",
+    "short_name": "女票不吃胡萝卜",
     "theme_color": "#49b1f5",
     "background_color": "#49b1f5",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
+    "description": "个人博客，记录读书学习笔记、杂七杂八",
     "icons": [
         {
-            "src": "img/pwa/36.jpeg",
-            "sizes": "36x36",
-            "type": "image/jpeg"
-        },
-        {
-            "src": "img/pwa/48.jpeg",
-            "sizes": "48x48",
-            "type": "image/jpeg"
-        },
-        {
-            "src": "img/pwa/72.jpeg",
+            "src": "img/pwa/72.webp",
             "sizes": "72x72",
-            "type": "image/jpeg"
+            "type": "image/webp"
         },
         {
-            "src": "img/pwa/96.jpeg",
+            "src": "img/pwa/96.webp",
             "sizes": "96x96",
-            "type": "image/jpeg"
+            "type": "image/webp"
         },
         {
-            "src": "img/pwa/144.jpeg",
+            "src": "img/pwa/144.webp",
             "sizes": "144x144",
-            "type": "image/jpeg"
+            "type": "image/webp"
         },
         {
-            "src": "img/pwa/192.jpeg",
+            "src": "img/pwa/192.webp",
             "sizes": "192x192",
-            "type": "image/jpeg"
+            "type": "image/webp"
         },
         {
-            "src": "img/pwa/512.jpeg",
+            "src": "img/pwa/512.webp",
             "sizes": "512x512",
-            "type": "image/jpeg"
+            "type": "image/webp"
         }
-    ],
-    "splash_pages": null
+    ]
 }
