@@ -459,10 +459,9 @@ google_adsense:
 
 # Verification (站長驗證)
 # --------------------------------------
-
 site_verification:
-  # - name: google_site_verification
-  #   content: xxxxxx
+  - name: google_site_verification
+    content: ALggV8fMlqU6kz5jiwX3wgHN9jKRCZmbXpqjS6s_Ec8
   # - name: baidu_site_verification
   #   content: xxxxxxx
 
