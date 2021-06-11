@@ -10,6 +10,9 @@ const imagemin = require('gulp-imagemin')
 const uglify = require('gulp-uglify')
 const babel = require('gulp-babel')
 
+const workbox = require("workbox-build");
+const { series } = require('gulp')
+
 // minify js - babel（ 如果不是使用bebel,把下面註釋掉）
 gulp.task('compress', () =>
     gulp.src(['./public/**/*.js', '!./public/**/*.min.js'])
@@ -67,7 +70,24 @@ gulp.task('minify-images', async () => {
         .pipe(gulp.dest('./public/img'))
 })
 
+gulp.task('gen-sw', () => {
+    return workbox.injectManifest({
+        swSrc: './sw-template.js',
+        swDest: './public/sw.js',
+        globDirectory: './public',
+        globPatterns: [
+            "**/*.{html,css,js,json,woff2,png,jpg,jpeg,webp,gif}"
+        ],
+        modifyURLPrefix: {
+            "": "./"
+        }
+    });
+});
+
 // 執行 gulp 命令時執行的任務
-gulp.task('default', gulp.parallel(
-    'compress', 'minify-css', 'minify-html', 'minify-images'
-))
+gulp.task('default',
+    gulp.series(
+        gulp.parallel('compress', 'minify-css', 'minify-html', 'minify-images'),
+        'gen-sw'
+    )
+)
