@@ -11,6 +11,7 @@
   },
   "scripts": {
     "build": "hexo generate",
+    "gulp": "./node_modules/.bin/gulp",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
@@ -35,5 +36,15 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-butterfly": "^3.7.6",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-html-minifier-terser": "^6.0.1",
+    "gulp-htmlclean": "^2.7.22",
+    "gulp-uglify": "^3.0.2"
   }
 }
