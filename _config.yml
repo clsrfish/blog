@@ -113,3 +113,11 @@ feed:
   # Generate atom feed
   type: atom
   path: atom.xml
+
+# hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap.ejs
+  rel: false
+  tags: true
+  categories: true
