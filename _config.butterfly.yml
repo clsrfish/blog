@@ -81,12 +81,12 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: img/pwa/144.webp
-  effect: false
+  img: img/pwa/144.png
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -836,9 +836,9 @@ lazyload:
 pwa:
   enable: true
   manifest: /manifest.json
-  apple_touch_icon: /img/pwa/512.webp
-  favicon_32_32: /img/pwa/72.webp
-  favicon_16_16: /img/pwa/72.webp
+  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  favicon_32_32: /img/pwa/favicon-32x32.png
+  favicon_16_16: /img/pwa/favicon-16x16.png
   mask_icon: /img/pwa/safari-pinned-tab.svg
 
 # Open graph meta tags
