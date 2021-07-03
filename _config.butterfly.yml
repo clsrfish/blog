@@ -86,7 +86,7 @@ favicon: /img/favicon.ico
 # Avatar (頭像)
 avatar:
   img: img/pwa/144.png
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
