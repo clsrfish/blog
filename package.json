@@ -10,6 +10,7 @@
     "url": "https://github.com/clsrfish/blog"
   },
   "scripts": {
+    "post": "hexo new post",
     "build": "hexo generate",
     "gulp": "./node_modules/.bin/gulp",
     "clean": "hexo clean",

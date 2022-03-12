@@ -4,9 +4,24 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "New post",
+            "label": "Create a new post <title>",
             "type": "shell",
-            "command": "hexo new post ${input:title}"
+            "command": "npm",
+            "args": [
+                "run",
+                "post",
+                "--", // separator
+                "${input:title}"
+            ],
+        },
+        {
+            "label": "Remove generated files and cache.",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "run",
+                "clean",
+            ]
         }
     ],
     "inputs": [
