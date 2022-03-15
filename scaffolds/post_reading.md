@@ -4,7 +4,7 @@ date: {{ date }}
 updated: {{ date }}
 sticky: 0
 categories:
-  - reading
+  - Reading
 tags:
 ---
 
