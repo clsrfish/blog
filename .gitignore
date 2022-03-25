@@ -135,3 +135,5 @@ Thumbs.db
 db.json
 public/
 .deploy*/
+
+.npmrc
