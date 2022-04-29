@@ -1,17 +1,15 @@
-const gulp = require('gulp')
-const cleanCSS = require('gulp-clean-css')
-const htmlmin = require('gulp-html-minifier-terser')
-const htmlclean = require('gulp-htmlclean')
-const imagemin = require('gulp-imagemin')
+import gulp from 'gulp';
+import babel from 'gulp-babel';
+import cleanCSS from 'gulp-clean-css';
+import htmlmin from 'gulp-html-minifier-terser';
+import htmlclean from 'gulp-htmlclean';
+import imagemin from 'gulp-imagemin';
 // gulp-tester (如果使用 gulp-tester,把下面的//去掉)
-// const terser = require('gulp-terser');
-
+// const terser from 'gulp-terser');
 // babel (如果不是使用bebel,把下面兩行註釋掉)
-const uglify = require('gulp-uglify')
-const babel = require('gulp-babel')
+import uglify from 'gulp-uglify';
+import workbox from "workbox-build";
 
-const workbox = require("workbox-build");
-const { series } = require('gulp')
 
 // minify js - babel（ 如果不是使用bebel,把下面註釋掉）
 gulp.task('compress', () =>
@@ -61,12 +59,7 @@ gulp.task('minify-html', () => {
 // 壓縮 public/uploads 目錄內圖片
 gulp.task('minify-images', async () => {
     gulp.src('./public/img/**/*.*')
-        .pipe(imagemin({
-            optimizationLevel: 5, // 類型：Number  預設：3  取值範圍：0-7（優化等級）
-            progressive: true, // 類型：Boolean 預設：false 無失真壓縮jpg圖片
-            interlaced: false, // 類型：Boolean 預設：false 隔行掃描gif進行渲染
-            multipass: false // 類型：Boolean 預設：false 多次優化svg直到完全優化
-        }))
+        .pipe(imagemin())
         .pipe(gulp.dest('./public/img'))
 })
 
