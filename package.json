@@ -52,6 +52,6 @@
     "gulp-htmlclean": "^2.7.22",
     "gulp-imagemin": "^8.0.0",
     "gulp-uglify": "^3.0.2",
-    "workbox-build": "^6.5.3"
+    "workbox-build": "^6.5.4"
   }
 }
