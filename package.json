@@ -42,7 +42,7 @@
     "hexo-theme-butterfly": "^3.8.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.16.11",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
