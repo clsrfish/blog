@@ -66,7 +66,7 @@ MapReduce 架构设计了一个 Master 对任务进行管理，多个 Worker 执
 1. MapReduce（与用户代码编译好的可执行文件） 首先会将输入文件划分成 M 份（大小通常是 16~64M），然后在集群中启动 MapReduce 程序。
 2. 集群中某一台机器将被指定为 Master，其余的是 Worker，并切等待 Master 分配任务。刚开始有 M 个 Map 任务和 R 个 Reduce 任务需要进行分配，Master 会挑选空闲的 Worker 分配一个任务（Map 或者 Reduce）。
 3. 被分配到 Map 的 Worker 读入对应的输入，解析出 key/value 并传递给用户实现的 Map 函数，Map 函数产生的中间结果暂时存在内存里。
-4. Map 函数产生的中间结果会周期性地刷写到 R 个本地文件，其中分区规则由分区函数决定（可定制）。然后这些本地文件的位置在 Map 任务执行完时发送给 Master，Master 然后把这些文件传递给执行 Reduce 任务的 Worker。注意，Reduce 的输入来自每一个 Map 的输出，同时相同 key 的中间结果不会同时被多个 Reduce 接收到。
+4. Map 函数计算结果会周期性地写入 R 个本地文件，其中分区规则由分区函数决定（可定制）。然后这些本地文件的位置在 Map 任务执行完时发送给 Master，Master 然后把这些文件传递给执行 Reduce 任务的 Worker。注意，Reduce 的输入来自每一个 Map 的输出，同时 key 相同的中间结果不会同时被多个 Reduce 接收到。
 5. 当 Master 通知 Reduce Worker 中间结果的位置后，Worker 通过 RPC 读取对应的 Map Worker 的本地文件。等所有中间结果读取完毕后，Reduce Worker 会对中间结果按照 key 进行排序，以便相同 key 的中间结果会聚集在一起。
 6. Reduce Worker 然后遍历中间结果，将相同 key 的数据集传递给用户编写的 Reduce 函数。Reduce 函数的输出结果会 append 到输出文件。
 7. 所有 Map Task 和 Reduce Task 完成后，Master 会回到用户代码（这里没太懂，大概就是通知用户执行结果吧）。
@@ -97,7 +97,7 @@ Master 异常处理相比就简单直接一点了，周期性地将状态生成 
 
 ### 性能优化
 
-虽然[上面](###架构)描述了一个任务执行过程的理论模型，但如果完全按照理论模型落地，还存在一定性能瓶颈，比如网络IO等。
+虽然[上面](#架构)描述了一个任务执行过程的理论模型，但如果完全按照理论模型落地，还存在一定性能瓶颈，比如网络IO等。
 
 #### 输入文件IO
 
