@@ -14,4 +14,4 @@ tags:
 
 
 
-## 参考
+## Key takeaways
