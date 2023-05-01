@@ -2,6 +2,7 @@
     "recommendations": [
         "yzhang.markdown-all-in-one",
         "davidanson.vscode-markdownlint",
-        "jsynowiec.vscode-insertdatestring"
+        "jsynowiec.vscode-insertdatestring",
+        "eamodio.gitlens"
     ]
 }

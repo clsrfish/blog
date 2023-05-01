@@ -13,6 +13,7 @@
                 "--", // separator
                 "${input:title}"
             ],
+            "problemMatcher": []
         },
         {
             "label": "Remove generated files and cache.",
@@ -21,7 +22,8 @@
             "args": [
                 "run",
                 "clean",
-            ]
+            ],
+            "problemMatcher": []
         }
     ],
     "inputs": [
