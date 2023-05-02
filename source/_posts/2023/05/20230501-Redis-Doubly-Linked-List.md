@@ -1,5 +1,5 @@
 ---
-title: Redis doubly linked list
+title: Redis Doubly Linked List
 sticky: 0
 cover: false
 date: 2023-05-01 13:24:43
