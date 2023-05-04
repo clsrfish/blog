@@ -5,12 +5,19 @@
 
 ## Quick Start
 
-Run local server and writing:
+> Recommend using Visual Studio Code as the editor.
 
-```shell
-$ npm run server
+### Preview locally
+
+Press `F5`:
+
+```log
 14:52:30.329 INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.
 ```
+
+### New post
+
+Press `Ctrl + Shift + P` or `Cmd + Shift + P`, then execute *Tasks: Run task* and select *Create a new post \<title\>* to run.
 
 ## License
 
