@@ -110,7 +110,7 @@ appendfsync no # 由 OS 决定同步时机
 
 > Redis 5 中默认开启
 
-RDB + AOF 结合了 RDB 和 AOF 的优点，此时整体格式变为：[RDB] + [AOF]，即在 AOF 重写子进程中，不再是以 RESP 协议导出数据库，而是 RDB。
+RDB + AOF 结合了 RDB 和 AOF 的优点，此时整体格式变为：[RDB] + [AOF]，在 AOF 重写子进程中，不再是以 RESP 协议导出数据库到 BASE file，而是 RDB，即 BASE AOF file 中保存了 RDB 格式的数据。
 
 ## Key takeaways
 
