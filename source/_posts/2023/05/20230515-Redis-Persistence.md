@@ -1,5 +1,5 @@
 ---
-title: Redis persistence
+title: Redis Persistence
 sticky: 0
 cover: false
 date: 2023-05-15 23:20:25
