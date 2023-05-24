@@ -2,12 +2,12 @@
 
 ## Topics
 
-- [ ] Redis Objcet
-- [ ] Redis AOF/RDB
+- [x] Redis Objcet
+- [x] Redis AOF/RDB
+- [ ] Cache pattern
 - [ ] I/O multiplex
 - [ ] Redis react
 - [ ] Redis lock
-- [ ] Cache pattern
 - [ ] Raft/Paxos
 
 ## Books
