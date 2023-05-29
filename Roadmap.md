@@ -4,7 +4,7 @@
 
 - [x] Redis Objcet
 - [x] Redis AOF/RDB
-- [ ] Cache pattern
+- [x] Cache pattern
 - [ ] I/O multiplex
 - [ ] Redis react
 - [ ] Redis lock
