@@ -5,8 +5,8 @@
 - [x] Redis Objcet
 - [x] Redis AOF/RDB
 - [x] Cache pattern
-- [ ] I/O multiplex
-- [ ] Redis react
+- [x] I/O multiplex
+- [x] Reactor pattern
 - [ ] Redis lock
 - [ ] Raft/Paxos
 
