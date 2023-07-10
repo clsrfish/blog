@@ -82,7 +82,6 @@ public:
 class InitiationDispatcher {
 private:
     static const int MAX_EVENTS = 16;
-    /* data */
     EventHandler *get_handler(epoll_event *ev) const {}
 public:
     InitiationDispatcher() {}
@@ -124,7 +123,7 @@ private:
     InitiationDispatcher* dispatcher;
 public:
     LoggingHandler(const int fd, InitiationDispatcher* dispatcher) : EventHandler(fd), dispatcher(dispatcher) {}
-    ~LoggingHandler(){}
+    ~LoggingHandler() {}
     void accept(EventType event) override {
         if (event == EventType::READ) {
             int size = read(this->fd, /*buf*/, /*buf_size*/)
