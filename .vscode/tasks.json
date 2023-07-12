@@ -24,12 +24,56 @@
                 "clean",
             ],
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "git add .",
+            "type": "shell",
+            "hide": true,
+            "command": "git",
+            "args": [
+                "add",
+                "."
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "git commit",
+            "type": "shell",
+            "hide": true,
+            "command": "git",
+            "args": [
+                "commit",
+                "-m",
+                "'${input:commit_message}'"
+            ],
+            "dependsOn": [
+                "git add ."
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Publish changes",
+            "type": "shell",
+            "command": "git",
+            "args": [
+                "push",
+                "-f"
+            ],
+            "dependsOn": [
+                "git commit"
+            ],
+            "problemMatcher": []
+        },
     ],
     "inputs": [
         {
             "id": "title",
             "description": "Title of the new post",
+            "type": "promptString"
+        },
+        {
+            "id": "commit_message",
+            "description": "Commit message",
             "type": "promptString"
         }
     ]
