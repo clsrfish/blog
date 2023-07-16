@@ -9,9 +9,9 @@
 - [x] Reactor pattern
 - [x] Redis lock
 - [x] 缓存雪崩、击穿、穿透
-- [ ] Bloom filter
-- [ ] 一致性 hash 算法
-- [ ] 限流算法
+- [x] Bloom filter
+- [x] Consistent hashing
+- [ ] Rate-limit
 - [ ] LSM-Tree
 - [ ] MySQL logs
 - [ ] MySQL index
