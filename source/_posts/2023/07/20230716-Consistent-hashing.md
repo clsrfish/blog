@@ -40,4 +40,6 @@ tags:
 
 ## Key takeaways
 
+[Consistent hashing wikipedia](https://en.wikipedia.org/wiki/Consistent_hashing)
+
 [Consistent Hashing](https://www.youtube.com/watch?v=UF9Iqmg94tk)
