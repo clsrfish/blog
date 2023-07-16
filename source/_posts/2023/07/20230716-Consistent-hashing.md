@@ -12,9 +12,9 @@ tags:
 
 ## 初步的做法
 
-![simplest](../../../img/2023/consistent-hash-simple.png)
+![simple](../../../img/2023/consistent-hash-simple.png)
 
-首先计算 `object_key` hash 值，然后对其取模得到目标 server。
+首先计算 `hash(object_key)`，然后对 `numbers_of_servers` 取模得到目标 server。
 
 这种方式的问题核心是，`numbers_of_servers` 在 server 下线或新 server 加入时会发生变化，从而 `object_key` 的计算结果也因此发生变化。
 
