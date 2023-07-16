@@ -8,14 +8,19 @@
 - [x] I/O multiplex
 - [x] Reactor pattern
 - [x] Redis lock
-- [ ] 缓存雪崩、击穿、穿透
+- [x] 缓存雪崩、击穿、穿透
 - [ ] Bloom filter
-- [ ] Raft
+- [ ] 一致性 hash 算法
+- [ ] 限流算法
+- [ ] LSM-Tree
 - [ ] MySQL logs
 - [ ] MySQL index
 - [ ] MySQL transaction level
 - [ ] MySQL MVVC
-- [ ] canal
 - [ ] Kafka
+- [ ] canal
+- [ ] CAP
+- [ ] 2PC/XA
+- [ ] Raft
 
 ## Books
