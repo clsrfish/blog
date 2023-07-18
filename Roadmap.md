@@ -11,7 +11,7 @@
 - [x] 缓存雪崩、击穿、穿透
 - [x] Bloom filter
 - [x] Consistent hashing
-- [ ] Rate-limit
+- [x] Rate-limit
 - [ ] LSM-Tree
 - [ ] MySQL logs
 - [ ] MySQL index
