@@ -13,6 +13,7 @@
 - [x] Consistent hashing
 - [x] Rate-limit
 - [ ] LSM-Tree
+- [ ] Write-ahead logging
 - [ ] MySQL logs
 - [ ] MySQL index
 - [ ] MySQL transaction level
